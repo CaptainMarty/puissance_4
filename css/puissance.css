@@ -4,14 +4,26 @@ body {
 }
 h1 {
     text-align: center;
-    color:bisque;
+    color:rgb(255, 0, 0);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3em;
 }
-h1:hover {
-    color : rgba(255, 228, 196, 0.8)
+span {
+    color:yellow;
 }
+
+
+
 button {
     text-align: center;
+    background-color: rgb(226, 74, 74);
+    border-color: none;
+    font-size: 25px;
+
 }
+
 button:hover {
     color: rgb(0, 106, 255);
 }
@@ -40,4 +52,18 @@ tr {
     width:55px;
     height: 55px;
     display: inline-block;
+}
+.btn {
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 5px;
+    }
+
+h2 {
+    color:white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3em;
 }

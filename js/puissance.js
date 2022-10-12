@@ -141,7 +141,7 @@ function verifVictoire(i,j) {
     if(countLine >= 4 || countColumn >= 4 || countDiag >= 4 || countAntidiag >= 4){
         victoires = true;
         //Affichage du vainqueur
-        let gagnant = (player == 1) ? "red" : "yellow";
+        let gagnant = (player == 1) ? "Rouge" : "Jaune";
         let victoire = document.createElement('div');
         victoire.innerHTML = "<h2>Le vainqueur est :  " +gagnant+  "</h2>";
         content.appendChild(victoire);
