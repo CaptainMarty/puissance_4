@@ -164,7 +164,7 @@ let column = 7;
 let row = 6;
 let board = new Array();
 let content = document.getElementById("content");
-content.innerHTML="Puissance 4 en javascript | Auteur Romain | Date de création 11/10/2022"
+content.innerHTML="<h3>Puissance 4 en javascript | Auteur Romain | Date de création 11/10/2022</h3>"
 let player = 1;
 let button = document.getElementById("newGame");
 

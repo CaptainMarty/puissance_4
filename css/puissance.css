@@ -67,3 +67,12 @@ h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.3em;
 }
+
+h3 {
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5em;
+}
