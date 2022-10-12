@@ -1,0 +1,43 @@
+/* Définition du board*/
+body {
+    background-image: url(../img/gris-9412-serie-94-sans-plomb.jpg);
+}
+h1 {
+    text-align: center;
+    color:bisque;
+}
+h1:hover {
+    color : rgba(255, 228, 196, 0.8)
+}
+button {
+    text-align: center;
+}
+button:hover {
+    color: rgb(0, 106, 255);
+}
+
+table {
+    margin: auto;
+    border: 4px solid rgb(0, 21, 251);
+
+}
+
+td {
+    margin: auto;
+    border: 4px solid rgb(0, 21, 251);
+    width: 75px;
+    text-align: center;
+}
+
+tr {
+    margin: auto;
+    border: 4px solid rgb(0, 21, 251);
+    height: 75px;
+}
+
+.player {
+    border-radius: 50px 50px 50px 50px;
+    width:55px;
+    height: 55px;
+    display: inline-block;
+}
